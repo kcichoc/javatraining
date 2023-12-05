@@ -31,7 +31,7 @@ public class ActorTest {
     void shouldCalculateSalaryBonusIsBigger() {
         Actor tomHanks = new Actor("Tom", "Hanks");
         int actual = tomHanks.giveBonus(15, 10);
-        int expected = 10;
+        int expected = 115;
 
         assertThat(actual).as("Bonus wyliczony nieprawidłowo").isEqualTo(expected);
     }
